@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="La Société Paddam est, historiquement en France, la première association qui œuvre dans le domaine de la protection animale. Depuis 176 ans, elle se mobilise pour venir en aide aux animaux en détresse et pour promouvoir le bien-être animal."
+    />
+    <title>HTML - CSS - BOOTSTRAP</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <div>
+          <img src="assets/images/logo-color.png" width="150" alt="logo" />
+        </div>
+        <p>nos amis les animaux</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="evenements.html">Évènements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <article>
+        <div class="content">
+          <div class="content-item">
+            <h2>Entrons en contact</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, quia?</p>
+            <div class="flex form-container">
+              <div class="contentG flex-1">
+                <div class="container-icon">
+                  <h3>Paddam</h3>
+                  <p><i class="fa-solid fa-envelope-open-text"></i><span>contact@paddam.com</span></p>
+                  <p><i class="fa-solid fa-mobile-screen-button"></i><span>+336 00 01 03 02</span></p>
+                </div>
+              </div>
+              <div class="contentD flex-1">
+                <!-- Formulaire de contact -->
+                <div class="container-contact-form px-5">
+                  <div class="enter__contact">
+                    <div class="form-subtitle">
+                      <h3>Formulaire de contact</h3>
+                    </div>
+                    <div class="form-contact">
+                      <form class="contact-form flex gap-10 column wrap">
+                        <input type="text" id="fname" name="firstname" placeholder="Prénom.." />
+                        <input type="text" id="lname" name="lastname" placeholder="Nom...." />
+                        <input type="email" name="email" id="email" placeholder="Email...." />
+                        <textarea
+                          id="subject"
+                          name="subject"
+                          placeholder="Votre message.."
+                          style="height: 120px"
+                        ></textarea>
+                        <input class="input" type="submit" value="Envoyer" />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Formulaire de contact -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <footer>
+        <div>© Alain Tardif</div>
+      </footer>
+    </div>
+  </body>
+</html>
