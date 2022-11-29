@@ -1,0 +1,33 @@
+nav {
+  display : flex;
+  justify-content : space-around;
+  }
+  nav {
+  padding-top : 0;
+  }
+  nav ul {
+  margin : 0;
+  padding : 0;
+  }
+  nav ul li {
+  list-style : none;
+  width : 100%;
+  padding-top : 85px;
+  padding-bottom : 40px;
+  text-align : center;
+  }
+  nav a {
+  text-decoration : none;
+  color : black;
+  font-size : 20px;
+  }
+  nav a:hover {
+  transition-duration : 0.3s;
+  font-size : 1.3rem;
+  border-bottom : 3px solid #4c1b1b;
+  }
+  @media screen and (max-width: 830px) {
+  nav ul li {
+  padding : 15px 0;
+  }
+  }

@@ -1,0 +1,11 @@
+header {
+  display : flex;
+  font-size : 25px;
+  letter-spacing : 2px;
+  text-transform : uppercase;
+  align-items : center;
+  }
+  header div {
+  width : 45%;
+  display : flex;
+  }
