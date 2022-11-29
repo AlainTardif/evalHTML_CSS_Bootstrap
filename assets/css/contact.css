@@ -24,14 +24,21 @@ article h3 {
   height: 30px;
   border-radius: 5px;
 }
+.contact-form {
+  margin-right: 15px;
+  margin-top: -15px;
+}
+
+input {
+  height: 25px;
+}
+
 input,
 textarea {
   outline: none;
-}
-input,
-textarea {
   border: 1px solid #ccc;
 }
+
 input:hover,
 textarea:hover {
   border: 1px solid #4c1b1b;
